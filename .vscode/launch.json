@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Community Resource Finder",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "src/app.py",
+                "--server.port",
+                "8501"
+            ],
+            "justMyCode": true
+        }
+    ]
+}

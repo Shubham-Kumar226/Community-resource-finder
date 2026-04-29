@@ -1,0 +1,21 @@
+.env/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+users.db
+*.db
+*.sqlite
+*.sqlite3
+
+.streamlit/secrets.toml
+*.log
+
+# This workspace has an inaccessible directory named README.md.
+README.md/
